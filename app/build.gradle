@@ -26,7 +26,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation project(path: ':core')
+//    implementation project(path: ':core')
+    implementation 'com.github.YunjieSoftware:base_core:1.0.0'
+//    api 'com.github.xuexiangjys:XUI:1.1.2'
 //    api 'com.qmuiteam:qmui:2.0.0-alpha02'
 ////    def qmui_arch_version = ''
 //    api 'com.qmuiteam:arch:2.0.0-alpha02'

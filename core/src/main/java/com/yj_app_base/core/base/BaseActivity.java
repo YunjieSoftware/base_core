@@ -62,7 +62,6 @@ public class BaseActivity extends AppCompatActivity implements View.OnClickListe
     public LinearLayout toolbarBtns,emptyLayoutclick;
 
 
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
