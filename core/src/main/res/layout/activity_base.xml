@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".base.BaseActivity">
+
+    <include
+        layout="@layout/layout_toolbar"
+         />
+
+    <include
+        android:id="@+id/errorLayout"
+        layout="@layout/view_error_layout"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/emptyLayout"
+        layout="@layout/view_empty_layout"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/nonetLayout"
+        layout="@layout/view_nonet_layout"
+        android:visibility="gone" />
+    <include
+        android:id="@+id/loadingLayout"
+        layout="@layout/view_loading_layout"
+        android:visibility="gone" />
+        <FrameLayout
+            android:fitsSystemWindows="true"
+            android:id="@+id/root_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </FrameLayout>
+
+
+
+
+
+</LinearLayout>

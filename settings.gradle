@@ -1,0 +1,2 @@
+include ':app', ':core', ':mytest', ':http_module'
+rootProject.name='BaseFrame'

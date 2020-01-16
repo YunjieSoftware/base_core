@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--WheelView-->
+    <dimen name="default_wheel_view_text_size">20sp</dimen>
+    <dimen name="picker_view_topbar_padding">20dp</dimen>
+    <dimen name="picker_view_topbar_height">44dp</dimen>
+
+    <dimen name="default_md_dialog_horizontal_margin_phone">28dp</dimen>
+</resources>
