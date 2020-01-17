@@ -14,9 +14,12 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import com.xuexiang.xutil.data.DateUtils;
 import com.yj_app_base.core.R;
 import com.yj_app_base.core.interfaces.OnClickListener;
 import com.yj_app_base.core.utils.ToastUtil;
+
+import java.util.Date;
 
 /**
  * ━━━━━━神兽出没━━━━━━
@@ -60,6 +63,7 @@ public class BaseActivity extends AppCompatActivity implements View.OnClickListe
     private TextView resetTextView;
     private TextView resetButton;
     public LinearLayout toolbarBtns,emptyLayoutclick;
+    public  Date nowdate = DateUtils.getNowDate();
 
 
     @Override
