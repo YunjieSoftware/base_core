@@ -9,6 +9,7 @@ import com.yj_app_base.core.base.BaseActivity;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
+
 public class Main4Activity extends BaseActivity {
 
     @Override
@@ -19,6 +20,6 @@ public class Main4Activity extends BaseActivity {
 //        setTitle("ssss");
 
 
-        CalligraphyConfig
+//        CalligraphyConfig
     }
 }

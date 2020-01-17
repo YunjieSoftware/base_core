@@ -10,7 +10,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.yj_app_base.core.base.BaseActivity;
-import com.yj_app_base.core.utils.StatusBarUtils;
+
 
 public class Main3Activity extends BaseActivity {
 
